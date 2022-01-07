@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(this, "Avtivity Created", Toast.LENGTH_SHORT).show();
     }
     @SuppressLint("ResourceType")
     @Override
